@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --primary-color: aliceblue;
+    --secondary-color: #697A98;
+    --third-color: #B8BFD6;
+    --fourty-color: #19335A;
+    --fifty-color: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2)50%);
+}
+
+.dark-theme{
+    --primary-color: aliceblue;
+    --secondary-color: #19335A;
+    --third-color: #6c7694;
+    --fourty-color: #B8BFD6;
+    --fifty-color: linear-gradient(90deg, rgba(165, 165, 165, 0.2) 0%, rgba(168, 168, 168, 0.2)50%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 234px;
+    text-align: center;
+}
+.header {
+    font-size: 60px;
+}
+
+.firstname {
+    text-decoration: none;
+    font-style: italic;
+    list-style: none;
+    color: var(--primary-color);
+}
+
+.lastname {
+    text-decoration: none;
+    list-style: none;
+    color: antiquewhite;
+}
+
+.message {
+    padding: 10px;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.footer-c {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    font-size: small;
+    line-height: 50px;
+}

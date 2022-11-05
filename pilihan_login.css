@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    background-color: #eee;
+}
+
+.wrapper {
+    background-color: #B8BFD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.header-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname {
+    color: aliceblue;
+    font-weight: 550;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.lastname {
+    color:rgb(238, 228, 214);
+    font-weight: 510;
+    padding-left: 4px;
+}
+
+.content-box {
+    display: grid;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: medium;
+    margin: 126px 350px; /*top right bottom left*/
+    padding: 90px 80px 65px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    background-image:  linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2)50%);
+}
+
+.content-box a {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    color: #19335A;
+}
+
+.content {
+    display: flex;
+    justify-content:center;
+}
+
+.content div a{
+    display: flex;
+    align-items:center;
+    padding: 0px 60px 60px;
+    color: #19335A;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #697A98;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B8BFD6;
+    color: aliceblue;
+    font-size: small;
+    line-height: 50px;
+}
