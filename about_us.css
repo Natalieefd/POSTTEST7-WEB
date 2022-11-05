@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+    background-color: #697A98;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first_name {
+    font-weight: 550;
+    font-style: italic;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+.last_name {
+    color:rgb(238, 228, 214);
+    font-weight: 510;
+    padding-left: 4px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 100px 250px 0px 250px;
+    border: none;
+    background-color: #B8BFD6;
+}
+
+.header-box {
+    text-transform: capitalize;
+    font-size: x-large;
+    padding: 25px 246px;
+    color: #19335A;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    background-image:  linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2)50%);
+
+}
+
+.main-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
+    border: none;
+    background-color: #B8BFD6;
+}
+
+.content-box {
+    text-transform: capitalize;
+    font-size: medium;
+    margin: 25px 25px 67px 25px;
+    padding: 90px 200px;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    background-image:  linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2)50%);
+}
+
+.content {
+    text-transform: capitalize;
+    font-size: medium;
+    color: #19335A;
+    font-weight: bold;
+}
+
+.footer-c {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background-color: #697A98;
+    color:aliceblue;
+    font-size: small;
+    line-height: 50px;
+}
